@@ -1,0 +1,16 @@
+package factorial;
+
+import java.math.BigInteger;
+
+public class Solution {
+
+	// Complete the extraLongFactorials function below.
+	static void extraLongFactorials(int n) {
+		int i;
+		BigInteger fact=new BigInteger(BigInteger.valueOf(1));
+		for (i = 1; i <= n; i++) {
+			fact=fact.multiply(BigInteger.valueOf(i));
+		}
+		System.out.println(fact);
+	}
+}

@@ -1,0 +1,35 @@
+package mentor_questions;
+
+import java.util.Scanner;
+
+public class Largest_smallest {
+
+	
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter any number");
+		int[] j = new int[10];
+		int max = 0;
+		int var = 0;
+		for (int i = 0; i < j.length; i++) {
+			System.out.println();
+			j[i] = sc.nextInt();
+			j[i]=j[var];
+		
+		}
+	for ( var = 0;var <j.length;var++) {
+		if (j[var]>max) {
+		max = j[var];
+	
+		
+	}
+		for (var = 0;var<j.length;var++);
+	}
+	  System.out.println(j[max] );
+	
+
+	}
+
+}
+

@@ -1,0 +1,10 @@
+package practice_question;
+
+public class String_Question {
+	public static void main(String args[]) {
+		String s = new String("pragati");
+		s.concat("software");
+		System.out.println(s);
+	}
+
+}

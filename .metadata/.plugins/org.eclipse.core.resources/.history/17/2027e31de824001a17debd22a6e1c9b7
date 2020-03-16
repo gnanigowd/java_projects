@@ -1,0 +1,20 @@
+package first
+
+public class First {
+
+	public static void main(String[] args) throws NumberFormatExpection,IOException{{
+		InputstreamReaderin=newInputStreamReader(system.in);
+		BufferReader br=new BufferedReader(.in);
+		System.out.println("Enter any number");
+			int number,nof=0;
+			i=0;
+			while (i<=number)
+			if (number%i==0)
+				System.out.println("prime");
+				else
+					System.out.println("not prime");
+			i=i+1;
+					nof=nof+1
+				
+		number=IntegerparseInt(br.read)
+	}

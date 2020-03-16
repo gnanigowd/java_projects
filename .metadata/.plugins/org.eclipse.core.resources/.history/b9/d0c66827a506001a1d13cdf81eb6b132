@@ -1,0 +1,27 @@
+package practises;
+
+public class Largest_Number {
+	public static void main (String[]args) {
+		int [] arr = new int[] {2,3,15,15,3,2};   
+		int i=0;
+		int max=0;
+		while(max < arr.length) {
+			if (i< arr[max]){
+				i= arr[max];
+			max=max+1;
+		System.out.println(max);
+			
+		}
+	}
+			
+			
+			
+			
+			
+			
+			
+			
+			    
+	}
+
+}

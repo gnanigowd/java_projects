@@ -1,0 +1,22 @@
+
+public class Bubble_Short {
+	public static void main(String[] args) {
+		int[] arr = { 8, 9, 6, 3, 1, 5, 2, 4, 7 };
+		int index = 0;
+		while (index < arr.length) {
+			int var = 0;
+			while (var < arr.length) {
+				if (arr[index] < arr[var]) {
+					int result = arr[index];
+					arr[index] = arr[var];
+					arr[var] = result;
+			}
+				var = var + 1;
+			index = index + 1;
+		System.out.println([arr]);
+
+		}
+	}
+	}
+}
+

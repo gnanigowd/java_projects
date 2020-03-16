@@ -1,0 +1,24 @@
+package mentor_questions;
+
+import java.util.Scanner;
+
+public class Perfectsquare {
+
+	public static void main(String[] args) {
+		Scanner sc =  new Scanner (System.in);
+		System.out.println("ENTER ANY NUMBER");
+		int number = sc.nextInt();
+		int  square,number1,root;
+		number1 = sc.nextInt();
+		root =( int)Math.sqrt(number1);
+		square = root*root;
+		if (square==number1) {
+			System.out.println(number1 + "it is a perfect square ");
+		}else {
+			System.out.println("It is not a perfect number");
+		}
+		
+
+	}
+
+}

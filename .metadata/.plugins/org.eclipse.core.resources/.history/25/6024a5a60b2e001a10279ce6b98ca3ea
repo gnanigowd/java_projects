@@ -1,0 +1,11 @@
+package sample2;
+
+public class Java_Math {
+	public static void main(String[]args) {
+		double x=10;
+		double y=20;
+		System.out.println( "Maximum number of x and y is: " +Math.max(x, y));
+		System.out.println("Square root of y is: " + Math.sqrt(y));  		         
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;java_Q.Greatest.java&apos; to &apos;Solution.java&apos;&#x0A;- Original project: &apos;sample&apos;&#x0A;- Original element: &apos;java_Q.Greatest.java&apos;&#x0A;- Renamed element: &apos;java_Q.Solution.java&apos;" description="Rename compilation unit &apos;Greatest.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;java_Q{Greatest.java" name="Solution.java" references="false" stamp="1570000871459" version="1.0"/>
+</session>

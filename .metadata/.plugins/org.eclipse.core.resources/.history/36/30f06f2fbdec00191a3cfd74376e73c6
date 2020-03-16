@@ -1,0 +1,13 @@
+package interest;
+
+public class Interest {
+	public double si(double p,double r,double t) {
+		return p*r*t/100;
+	}
+	public double ci(double p,double r,double t) {
+		double,amount
+		amount=p*Math.pow(1+r/100,t);
+		return amount-p;
+	}
+}
+		

@@ -1,0 +1,11 @@
+package practice_question;
+
+public class String_Buffer {
+	public static void main(String[]args) {
+		StringBuffer sb = StringBuffer("pragati");
+     	sb.append("software");
+     	System.out.println(sb);
+     	
+	}
+
+}

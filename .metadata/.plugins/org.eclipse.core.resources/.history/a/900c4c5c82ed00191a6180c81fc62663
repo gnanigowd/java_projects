@@ -1,0 +1,8 @@
+package data_hiding;
+
+public class sakshi {
+		double balance = 10000;
+		public static void main(String[]args) {
+			
+		}
+}

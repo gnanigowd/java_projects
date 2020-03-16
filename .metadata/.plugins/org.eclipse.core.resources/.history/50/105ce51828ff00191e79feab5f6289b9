@@ -1,0 +1,24 @@
+package practice_que;
+
+import java.util.Scanner;
+
+public class Array_Sum {
+	public static void main (String[]args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter first number: ");
+	int var1=sc.nextInt();
+    int var2=sc.nextInt();
+    int var3=sc.nextInt();
+    int sum=0;
+    int index=0;
+    while (index<sc) {
+    	sum=sum+sc;
+    	index=index+1;
+    System.out.println(sum);
+    	
+    }
+	
+	
+	}
+
+}

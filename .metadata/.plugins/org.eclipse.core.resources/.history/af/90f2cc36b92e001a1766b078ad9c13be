@@ -1,0 +1,16 @@
+package sample2;
+
+public class Wrapper_Class2 {
+
+	public static void main(String[] args) {
+		Integer myInt = 6;
+		Double myDouble = 3.4;
+		Character myCharacter = 'P';
+		String myString = "mona";
+		System.out.println(myInt);
+		System.out.println(myDouble);
+		System.out.println(myString);
+		System.out.println(myCharacter);
+	}
+
+}

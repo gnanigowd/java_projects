@@ -1,0 +1,16 @@
+package perfect;
+
+public class Mutiplication_Table {
+	public static void main(String[]args) {
+	int a=0;
+	int sum=0;
+	while (a<10){
+		sum=sum+24;
+		a=a+1;
+		System.out.println(sum);
+		
+	}
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package mentor_questions;
+
+import java.util.Scanner;
+
+public class Store_Array {
+
+	public static void main(String[] args) {
+		int arr[]=new int [10];
+		int a = 1;
+		
+		Scanner sc = new Scanner (System.in);
+		int num = sc.nextInt();
+		System.out.println("enter any number");
+		
+		for (int arr1=0;a<=num;a++) {
+			int b = num+1;
+		b=num;
+					
+		
+		System.out.println(arr[num]);
+		
+
+}
+}
+}

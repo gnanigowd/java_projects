@@ -1,0 +1,24 @@
+package mentor_questions;
+
+import java.util.Scanner;
+
+public class Average {
+
+	public static void main(String[] args) {
+		int sum = 0;
+		int average = 0;
+		Scanner Sc = new Scanner(System.in);
+		System.out.println("enter any number");
+		int Number = Sc.nextInt();
+		for (int i = 1; i <= 10; i++) {
+			sum = sum + Number;
+
+			average = average + 1;
+
+		}
+		System.out.println("sum");
+		average = (sum / average);
+		System.out.println("average");
+	}
+
+}

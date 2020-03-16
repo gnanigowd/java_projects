@@ -1,0 +1,19 @@
+//import Java.util.Scanner;
+public class Linear_Search {
+	public static void main(String[]args) {
+		int[] list1= {1,2,3,4,5,6,7 } ;
+			int search = 5;
+			int index=0;
+			while (index<length(list1)){
+				if (list1[index]== search) {
+					System.out.println("search is present" +" " index + " " + "index position");
+				index=index+1; {
+		
+		
+	}
+	
+			
+		
+	}
+
+}

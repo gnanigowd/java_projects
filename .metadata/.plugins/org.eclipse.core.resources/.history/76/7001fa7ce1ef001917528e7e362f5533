@@ -1,0 +1,9 @@
+package java_pattern;
+
+public class Pattern_Ques {
+	for(i=0;i<=7;i++) {
+			System.out.println("1"* i);
+		
+	}
+}
+

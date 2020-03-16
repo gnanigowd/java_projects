@@ -1,0 +1,15 @@
+package mentor_questions;
+
+import java.util.Scanner;
+
+public class Reverse_order {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("enter any number");
+		int num = sc.nextInt();
+		
+
+	}
+
+}

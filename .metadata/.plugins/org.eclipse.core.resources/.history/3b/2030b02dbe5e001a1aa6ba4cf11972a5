@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Postive_negative {
+
+	public static void main(String[] args) {
+Scanner number= new Scanner (System.in);
+int number1 = 0;
+System.out.println("enter any number");
+for (number1=0;number1<0;number1++) {
+if (number1 > 0) {
+	System.out.println(number1 + "  it is a negative number ");
+	if (number1 < 0) {
+		System.out.println("abc");
+	}
+
+
+}else {
+	System.out.println(number1 +  " it is a positive nuber ");
+	
+	
+}
+
+}
+}
+}
+

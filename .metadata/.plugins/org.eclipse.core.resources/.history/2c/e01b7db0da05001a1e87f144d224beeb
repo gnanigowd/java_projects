@@ -1,0 +1,11 @@
+package perfect;
+
+public class Array_Question {
+	public static void main(String[]args ) {
+			int[] arr = { 2,3,15,15,3,2 };
+			int index = 0;
+			List b = new ArrayList();
+	
+			
+	}
+}

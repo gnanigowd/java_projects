@@ -1,0 +1,21 @@
+package perfect;
+
+public class Stair_Case {
+	public static void main(String[]args) {
+		
+	int i=8;
+	int j=0;
+	while (i>=1){
+		while(j<= i) {
+			System.out.println("#");
+			i=i-1;
+		System.out.println("#*i");
+			
+		}
+	}
+		
+	}
+}			
+
+
+	

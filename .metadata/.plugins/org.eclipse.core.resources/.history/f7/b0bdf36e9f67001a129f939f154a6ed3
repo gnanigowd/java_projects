@@ -1,0 +1,10 @@
+package mentor_questions;
+
+public class Missing_numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

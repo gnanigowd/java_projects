@@ -1,0 +1,20 @@
+package perfect;
+
+import java.util.Scanner;
+
+public class Multiplication_Question {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter a number"); 
+		int a=sc.nextInt();
+		System.out.println("enter a 2nd number");
+		int b=sc.nextInt();
+		int multiply = a*b;
+		System.out.println("The multiply of number"+multiply);
+		
+		
+
+	}
+
+}

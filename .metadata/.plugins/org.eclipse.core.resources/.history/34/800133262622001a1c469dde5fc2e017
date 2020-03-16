@@ -1,0 +1,15 @@
+package java_ques;
+
+public class Square_Question {
+	public static void main(String[]args) {
+		int var = 2;
+		int var2 = 5;
+		int Square = var*var2;
+		int Square1 = var*var2;
+		
+		System.out.println("the square of number" + Square);
+		System.out.println("the square of number"+ Square1);
+		
+	}
+
+}

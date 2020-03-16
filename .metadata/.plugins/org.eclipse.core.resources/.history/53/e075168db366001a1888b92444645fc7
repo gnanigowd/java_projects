@@ -1,0 +1,24 @@
+package mentor_questions;
+
+import java.util.Scanner;
+
+public class eee {
+
+
+    
+		public static void main(String[] args){
+		    for (int i = 3; i<=10;i++) {
+		    	if (i%3==0) {
+		    	System.out.println(" 3 * "+ i);
+		    	}else {
+		    		System.out.println();
+		    
+		    }
+		    }
+		}
+}
+		
+		    	
+		    
+
+		  

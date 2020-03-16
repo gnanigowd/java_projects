@@ -1,0 +1,41 @@
+package mentor_questions;
+
+import java.util.Scanner;
+
+public class Odd_Even_Positive_Negative {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int[] j = new int[20];
+		int postive = 0;
+		int negative = 0;
+		int odd = 0;
+		int even = 0;
+		int zero = 0;
+		for (int i = 0; i < j.length; i++) {
+			System.out.println();
+			j[i] = sc.nextInt();
+			if (j[postive] > 0) {
+				j[postive]++;
+			} else if (j[i] < 0) {
+				negative++;
+				
+			}else {	
+				zero++;
+			}
+		if (j[even] % 2 == 0) {
+			even++;
+			
+		} else {
+			odd++;
+			
+		}
+		}
+		System.out.println(j[postive]);
+		System.out.println(j[negative]);
+		System.out.println(j[even]);
+		System.out.println(j[odd]);
+		System.out.println(j[zero]);
+	}
+}
+

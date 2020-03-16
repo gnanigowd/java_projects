@@ -1,0 +1,9 @@
+package factorial;
+
+public class Solution {
+
+    // Complete the extraLongFactorials function below.
+    static void extraLongFactorials(int n) {
+        System.out.println(n);
+    }
+}

@@ -1,0 +1,5 @@
+package data_hiding;
+
+public class SakshiAccount {
+		int balance = 10000;
+}

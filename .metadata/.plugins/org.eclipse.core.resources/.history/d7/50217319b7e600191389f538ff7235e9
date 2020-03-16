@@ -1,0 +1,13 @@
+
+public class Linear_String {
+	public static void main(String[]args) {
+		String[] list1 = {'mona','sona','hina','ritu','mahi','rohini' };
+		string result = 'mahi'
+		for (string index=0;index<list1.length; index++) {
+			if (list[index].equalsearch) {
+				System.out.println("result is found at" + index + " " + " " +"index position");
+			}
+		}
+	}
+
+}

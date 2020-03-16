@@ -1,0 +1,30 @@
+package mentor_questions;
+
+import java.util.Scanner;
+
+public class Meal_week {
+
+	public static void main(String[] args) {
+		String day = "";
+		Scanner sc = new Scanner (System.in);
+		System.out.println("enter any day ");
+		String week = sc.nextLine();
+		if (day.equals("monday")) {
+			System.out.println(" poha");
+		} else if (day.equals("tuesday")) {
+			System.out.println("pavbhaji");
+		} else if (day.equals("wednesday")) {
+			System.out.println("biryani");
+		} else if (day.equals("thrusday")) {
+			System.out.println("bread omlet");
+		} else if (day.equals("friday")) {
+			System.out.println("pulav");
+		} else if (day.equals("saturday")) {
+			System.out.println("fish");
+		} else {
+			System.out.println("dhal_chawal");
+
+		}
+	}
+
+}

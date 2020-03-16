@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;positive_negative&apos; to &apos;mento&apos;&#x0A;- Original project: &apos;positive_negative&apos;&#x0A;- Original element: &apos;positive_negative/src/positive_negative&apos;&#x0A;- Renamed element: &apos;positive_negative/src/mento&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;positive_negative&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;positive_negative" name="mento" qualified="false" references="true" stamp="1583670087465" textual="false" version="1.0"/>
+</session>

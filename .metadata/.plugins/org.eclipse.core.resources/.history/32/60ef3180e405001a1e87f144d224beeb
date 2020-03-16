@@ -1,0 +1,12 @@
+package perfect;
+
+public class Fibanocci_Series {
+	public static void main(String[]args) {
+		int x=0;
+		int y=1;
+		while (x<10) {
+			System.out.println(x);
+		}
+	}
+
+}

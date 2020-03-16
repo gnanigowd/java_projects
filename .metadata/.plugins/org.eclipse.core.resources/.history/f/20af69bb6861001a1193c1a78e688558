@@ -1,0 +1,18 @@
+package mentor_questions;
+
+import java.sql.Array;
+import java.util.Scanner;
+
+public class Store_Array {
+
+	public static void main(String[] args) {
+		int arr[] = new int[10];
+			Scanner sc = new Scanner(System.in);
+			System.out.println("enter any number");
+			int num = sc.nextInt();
+//			for (int a = 0; a < num.length; a++) {
+			System.out.println(num);
+		
+
+		}
+	}

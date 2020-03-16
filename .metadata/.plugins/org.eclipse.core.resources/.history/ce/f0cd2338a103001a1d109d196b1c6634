@@ -1,0 +1,13 @@
+package factorial;
+
+public class Solution {
+
+    // Complete the extraLongFactorials function below.
+    static void extraLongFactorials(int n) {
+int i;
+int fact=1;
+for(i=1;i<=n;i++) {
+	fact=fact*i;
+}
+    }
+}

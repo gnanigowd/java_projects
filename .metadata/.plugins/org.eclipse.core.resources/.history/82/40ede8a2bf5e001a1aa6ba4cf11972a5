@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Postive_negative {
+
+	public static void main(String[] args) {
+Scanner number= new Scanner (System.in);
+int number1 = -1;
+System.out.println("enter any number");
+
+if (number1 -1 > 5) {
+	System.out.println(number1 + "  it is a negative number ");
+
+	
+
+
+}else {
+	System.out.println(number1 +  " it is not a  negative nuber ");
+	
+	
+}
+}
+	}
+
+

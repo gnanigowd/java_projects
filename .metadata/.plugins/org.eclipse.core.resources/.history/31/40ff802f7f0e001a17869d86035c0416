@@ -1,0 +1,43 @@
+package method_java;
+
+import java.util.Scanner;
+
+public class Switch_Case2 {
+	public static void main(String[]args) {
+		Scanner s=new Scanner(System.in);
+		//String str =s.next();
+	while(true){
+		System.out.print ("enter a name:");
+		String str =s.nextLine();
+	 switch(str) 
+	 
+     { 
+         case "Monday": 
+             System.out.println("Rajma chawal"); 
+             break; 
+         case "Tuesday": 
+             System.out.println("chicken"); 
+             break; 
+         case "wedesday": 
+             System.out.println("paneer"); 
+             break; 
+         case "thusday":
+        	 System.out.println("maggi");
+        	 break;
+         case "friday":
+        	 System.out.println("dalbhaji");
+        	break;
+         case "saturday":
+         	System.out.println("kadi");
+         	break;
+         case "sunday":
+         	System.out.println("shimla mirch");
+         	break;
+        default: 
+            System.out.println("exit"); 
+     } 
+ } 
+	}
+}
+
+

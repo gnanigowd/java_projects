@@ -1,0 +1,33 @@
+package interest;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
+
+public class Main {
+
+	public static void main(String[] args) throws NumberFormatException,IOException{ {
+		Interest interest = new Interest();
+		Interest intrest=new Interest();
+		InputStreamReader in=new InputStreamReader(System.in);
+		BufferedReader br=new BufferedReader (in);
+		
+		
+		double p,r,t;
+		p=Double.parseDouble(br.readLine());
+		 
+		r=Double.parseDouble(br.readLine());
+		 
+		t=Double.parseDouble(br.readLine());
+		 
+		System.out.println(intrest.si(p,r,t));
+
+
+	}
+
+
+	}
+
+}

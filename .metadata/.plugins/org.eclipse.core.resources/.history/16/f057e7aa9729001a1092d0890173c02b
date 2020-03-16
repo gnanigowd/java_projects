@@ -1,0 +1,25 @@
+package Java_Question;
+
+public class Static_Binding {
+	 public static class superclass { 
+	        static void print() 
+	        { 
+	            System.out.println("mona is good girl."); 
+	        } 
+	    } 
+	    public static class subclass extends superclass { 
+	        static void print() 
+	        { 
+	            System.out.println("No one understand our feeling."); 
+	        } 
+	    } 
+	  
+	    public static void main(String[] args) 
+	    { 
+	        superclass A = new superclass(); 
+	        superclass B = new subclass(); 
+	        A.print(); 
+	        B.print(); 
+	    } 
+
+}
